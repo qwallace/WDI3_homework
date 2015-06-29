@@ -29,6 +29,7 @@ A man has to get a fox, a chicken, and a sack of corn across a river. He has a r
 - 3rd trip across he then takes the corn across to the opposite side leaving the chicken on the original side
 - He return to the original side leaving the fox and corn on the opposite side
 - 4th trip across he takes the chicken back across to the opposite side
-** now the man the fox, the chicken and the corn are safely on the opposite side **
+
+**now the man the fox, the chicken and the corn are safely on the opposite side**
 
 * all done
