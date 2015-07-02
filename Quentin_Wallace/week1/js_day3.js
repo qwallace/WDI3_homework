@@ -34,7 +34,7 @@ console.log(metro.sandringham[4]);
 
 console.log(metro.sandringham.indexOf("Richmond"));
 
-var getStopsSandi = function(stop1, stop2) {
+var getStopsSandi = function(stop1, stop2) { 
   // console.log(metro.sandringham.indexOf(stop1));
   // console.log(metro.sandringham.indexOf(stop2));
   var stop1Index = metro.sandringham.indexOf(stop1);
@@ -43,8 +43,21 @@ var getStopsSandi = function(stop1, stop2) {
     console.log(metro.sandringham[i]);
   }
 }
+ 
+getStopsSandi("Richmond", "Windsor"); 
 
-getStopsSandi("Richmond", "Windsor");
+/////////////////////////////////////////////////////////////////////////////
+// ***This might be a better approach. Once you have this up and running then work out how to extract the station names 
+// var startLine = ''
+// var startPoint = ''
+// var endLine = ''
+// var endPoint = ''
+// var interchange = 'Richmond';
+// var journey1 = startLine.indexOf(startPoint) - startLine.indexOf(interchange);
+// var journey2 = endLine.indexOf(interchange) - endLine.indexOf(endPoint);
+// var tripLength = Math.abs(journey1);
+// var tripTotal = Math.abs(journey1) + Math.abs(journey2);
+//////////////////////////////////////////////////////////////////////////////
 
 // if line1 and line2 are ===, then just compare number of stops on the same line.
 // if line1 and line2 are !==, then how many stops until Richmond, when the person can change lines.
