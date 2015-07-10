@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman", serif;
+  font-size: 12px;
+  line-height: 17px;
+  font-color: #656565;
+}
+
+body {
+  margin: 0;
+}
+
+#container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+button {
+  background-color: lightgreen;
+}

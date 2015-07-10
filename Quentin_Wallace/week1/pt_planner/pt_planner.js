@@ -86,3 +86,19 @@ trip("alamein", "Flinders Street", "sandringham", "Windsor");
 
 //  trip1 = metro[startLine].slice(startIndex + 1, richStart);
 //  trip2 = metro[endLine].slice(richEnd, endIndex + 1);
+
+if (startPoint === Richmond) {
+  // get key from endPoint
+} else {
+  for (var key in metro) {
+    for (var i = Things.length - 1; i >= 0; i--) {
+      var someVariable = metro[key][i];
+      // what about endLIne?
+    if (metro[key][i] === startPoint) {
+      // get key var = metro[key];
+      startLine = metro[key];
+    } else if (metro[key][i] === endPoint) {
+      endLine = metro[key];
+    };
+  }
+}

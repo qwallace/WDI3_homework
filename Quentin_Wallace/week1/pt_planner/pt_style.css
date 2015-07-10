@@ -1,0 +1,11 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #222;
+  background-color: #eee;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
