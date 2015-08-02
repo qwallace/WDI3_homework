@@ -1,0 +1,2 @@
+Rover, 4, male, dog, squeaky
+Polly, 2, female, bird, mirror

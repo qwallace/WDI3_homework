@@ -1,0 +1,23 @@
+
+
+<div class="poster">
+
+  <img src="<%= @movie.poster_url %>">
+  
+</div>
+
+<div class="details">
+  
+  <h2><%= @movie.title %> <span>[<%= @movie.rating %>]</span></h2>
+
+  <p><i class="fa fa-calendar"></i> <%= @movie.released %></p> <p><i class="fa fa-clock-o"></i> <%= @movie.runtime %></p>
+
+  <p><i class="fa fa-users"></i> <%= @movie.actors %></p>
+
+  <p><i class="fa fa-book"></i> <%= @movie.plot %></p>
+
+  <button>Add to wish list</button>
+  
+</div>
+
+

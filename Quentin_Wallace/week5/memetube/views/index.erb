@@ -1,0 +1,10 @@
+<h1>Welcome to Memetube</h1>
+
+<% @videos.each do |video| %>
+
+  <p class="video-title"><a href="/videos/<%= video['id'] %>"><%= video['title'] %></a></p>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/<%= video['video_id'] %>" frameborder="0" allowfullscreen></iframe>
+
+
+<% end %>

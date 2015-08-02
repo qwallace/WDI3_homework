@@ -1,0 +1,24 @@
+
+<form action="/">
+
+  <label for="">Movie name</label>
+  <input type="text" name="movie_name">
+  <button>Get it</button>
+
+</form>
+
+<% if @movie_name %>
+
+  <ul>
+    <% @search.each do |movie| %>
+      <li><a href="/movies/<%= movie['imdbID'] %>"><%= movie['Title'] %></a> - <%= movie['Year'] %></li>
+    <% end %>
+  </ul>
+
+<% else %>
+
+  <p>Waiting for search</p>
+
+<% end %>
+
+
